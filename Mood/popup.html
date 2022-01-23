@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+        <!-- Works Cited
+            Icons made by <a href="https://www.freepik.com"
+        -->    <title>Sloth</title>
+    <script src="content.js"></script>
+    <script type="text/javascript" src="quote.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style type="text/css">
+        html {
+            margin: 0; 
+            height: 100%; 
+            overflow: hidden;
+
+        }
+        
+        body {
+           width: 400px;
+           height: 500px;
+           overflow: hidden;
+           font-family: Helvetica, Arial, sans-serif;
+
+        }
+        .container{
+            border-style: solid;
+            border-radius: 15px;
+            border-width: .75px;
+            text-align: center;
+            margin-top: 50px;
+            width: 85%;
+        }
+        .nav-item{
+            width: 33%;
+
+        }
+        .form-control{
+            display: inline-block;
+            width:auto; 
+            padding: 2%;
+        }
+        .nav-tabs{
+            background-color: #43d6b9;
+        }
+
+        .quote{
+            margin:10%; 
+            margin-top: 25px; 
+            background-color: #C3E9E4;
+            border-style: solid;
+            border-radius: 15px;
+            border-width: .75px;
+            padding: 3px;
+        }
+
+        .heading{
+            margin: auto;
+            margin-top: 25px; 
+            background-color: #6CC9BD;
+            width: fit-content;
+            border-radius: 15px;
+        }
+
+        .nav-link.active{
+            color: #fa7815;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="text-center heading" > &nbsp Welcome Back! &nbsp </h1>
+    <div class="container justify-content-center" style="background-color: #C3E9E4;">
+    <form style="padding-top: 2%; padding-bottom: 2%;">
+        <!--
+        <label for="time-options">Give me a reminder every</label>
+        <select class="form-control justify-content-center" id="time-options">
+            <option>20 minutes</option>
+            <option>40 mintues</option>
+            <option>1 hour</option>
+            <option>2 hours</option>
+            <option>3 hours</option>
+          </select>
+          <button type="submit" id="set-timer" class="btn" style="background-color: white;">Set time</button>
+        -->
+        <label for="journal">How Are You Feeling Today?</label> 
+        <input type="text" id="journal" name="journal"><br><br>
+        <label for="filename">Date:</label> 
+        <input type="text" id="filename" name="filename"><br><br>
+        <button type="submit" id="finishedEntry" class="btn" style="background-color: white;">Submit</button>
+
+    </form>
+
+    </div>
+
+    <div class="quote">
+        <p id="quote"></p>
+        <p id="quote_author"></p>
+    </div>
+
+
+    <!-- figure out how to auto select tab and then remove it when another tab is clicked -->
+    <ul class="nav nav-tabs fixed-bottom">
+        <li class="nav-item text-center">
+          <a class="nav-link active" aria-current="page" href="popup.html" >
+              <img src="images/home.png" alt="home icon"/>
+          </a>
+        </li>
+        <li class="nav-item text-center">
+          <a class="nav-link" href="activity.html">
+            <img src="images/stretching-exercises.png" alt="stretching icon"/>
+          </a>
+        </li>
+        <li class="nav-item text-center">
+          <a class="nav-link" href="mindfulness.html" >
+            <img src="images/calm.png" alt="calm icon" />
+          </a>
+        </li>
+      </ul>
+      
+      
+    </body>

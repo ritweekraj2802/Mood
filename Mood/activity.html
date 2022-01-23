@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <!-- Works Cited
+        Icons made by <a href="https://www.freepik.com"
+    -->    <title>Sloth</title>
+    <script src="content.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style type="text/css">
+        html {
+            margin: 0; 
+            height: 100%; 
+            overflow: hidden
+        }
+        
+        body {
+           width: 400px;
+           height: 700px;
+           overflow: hidden;
+           font-family: Helvetica, Arial, sans-serif;
+        }
+        .container{
+            border-style: solid;
+            border-radius: 10px;
+            border-width: .75px;
+            text-align: center;
+        }
+        .nav-item{
+            width: 33%;
+
+        }
+
+        .video{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .nav-tabs{
+            background-color: #43d6b9;
+        }
+        .heading{
+            margin: auto;
+            margin-top: 25px; 
+            background-color: #6CC9BD;
+            width: fit-content;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center heading" style="margin-top: 25px;">&nbsp Activities &nbsp</h1>
+    <h3 class="text-center" style="font-size: large;">Here are some quick activities to boost productivity!</h3>
+    <div class="video">
+        <iframe id="youtube-video" width="350" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <h5 style="margin-top: 10px;">Posture Tips</h5>
+    <p>Keep your computer monitor at eye level so your head doesn't tilt</p>
+    <p style="margin-bottom: 50px;">Rest your feet flat on the ground (no crossing ankles or legs)</p>
+    <!-- figure out how to auto select tab and then remove it when another tab is clicked -->
+    <ul class="nav nav-tabs fixed-bottom">
+        <li class="nav-item text-center">
+          <a class="nav-link" aria-current="page" href="popup.html">
+              <img src="images/home.png" alt="home icon"/>
+          </a>
+        </li>
+        <li class="nav-item text-center">
+          <a class="nav-link active" href="activity.html">
+            <img src="images/stretching-exercises.png" alt="stretching icon"/>
+          </a>
+        </li>
+        <li class="nav-item text-center">
+          <a class="nav-link" href="mindfulness.html">
+            <img src="images/calm.png" alt="calm icon" />
+          </a>
+        </li>
+      </ul>
+      <script type="text/javascript" src="activity.js"></script>
+    </body>
